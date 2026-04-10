@@ -2,6 +2,8 @@
 
 ### Added
 
+- [PR #650](https://github.com/konpyutaika/nifikop/pull/650) - **[Operator/NifiCluster]** Add `spec.pod.terminationGracePeriodSeconds` support for NiFi pods.
+
 ### Changed
 
 - [PR #641](https://github.com/konpyutaika/nifikop/pull/641) - **[Operator]** Upgrade golang to 1.25.7.
