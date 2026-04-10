@@ -9,6 +9,8 @@
 
 ### Fixed Bugs
 
+- [PR #655](https://github.com/konpyutaika/nifikop/pull/655) - **[Operator/NifiCluster]** Update Zookeeper connectivity validation.
+- [PR #646](https://github.com/konpyutaika/nifikop/pull/646) - **[Documentation]** Fix SSL documentation and examples by removing legacy `clusterSecure` / `siteToSiteSecure` fields, updating cert-manager Issuer apiVersion to `cert-manager.io/v1`, and clarifying `sslSecrets.tlsSecretName` requirements.
 - [PR #644](https://github.com/konpyutaika/nifikop/pull/644) - **[Helm Chart]** Fix `serviceAccountName` value path for Kubernetes manager mode by using `cluster.managerServiceAccount.name`.
 
 ### Deprecated
@@ -939,4 +941,3 @@
 ### Removed
 
 ### Fixed Bugs
-- [PR #655](https://github.com/konpyutaika/nifikop/pull/655) - **[Operator/NifiCluster]** Update Zookeeper connectivity validation.
