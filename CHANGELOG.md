@@ -937,3 +937,4 @@
 ### Removed
 
 ### Fixed Bugs
+- [PR #655](https://github.com/konpyutaika/nifikop/pull/655) - **[Operator/NifiCluster]** Update Zookeeper connectivity validation.
