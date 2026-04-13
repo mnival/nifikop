@@ -294,7 +294,7 @@ const (
 const (
 	// ZookeeperClusterManager indicates that the cluster leader election and state management will be managed with ZooKeeper.
 	ZookeeperClusterManager ClusterManagerType = "zookeeper"
-	// ZookeeperClusterManager indicates that the cluster leader election and state management will be managed with Kubernetes resources,
+	// KubernetesClusterManager indicates that the cluster leader election and state management will be managed with Kubernetes resources,
 	// respectively with Leases and ConfigMaps.
 	KubernetesClusterManager ClusterManagerType = "kubernetes"
 )
